@@ -4,7 +4,7 @@ const generations=[]
     console.log(result);
     var completar=[];
     var datex;
-    if (result.length < 8){
+    if (result.length <= 8){
         datex = 8 - result.length;
         console.log('tag', datex)
         for(let i =0; i< datex; i++){
