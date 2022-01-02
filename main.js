@@ -30,7 +30,7 @@ const rules ={
 
 const genLength = 64
 function setup(){
-    const canvas = createCanvas(800, 800);
+    const canvas = createCanvas(800, 1200);
     canvas.parent('#canvasHolder');
 
     const generation1 =[];
